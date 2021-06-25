@@ -1,0 +1,1 @@
+I have created a currency manager module in Angular JS, where the travel agency can set up currency formats depending on the market needs
