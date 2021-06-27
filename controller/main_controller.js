@@ -30,7 +30,7 @@ app.directive('exportToCsv',function(){
   });
 
 app.controller("CurrencyManager", function($scope) {
-  $scope.saveButtonText = 'Add Currency'
+  $scope.save_button_text = 'Add Currency'
   $scope.order_by = ''
   var currencies = []
   var currency_config_list = [
@@ -102,6 +102,7 @@ app.controller("CurrencyManager", function($scope) {
 
                 }
                 $scope.newCurrencyConfig = {};
+                $scope.save_button_text = 'Add Currency';
             
         } 
         $scope.updateCurrencyConfig = function(country) {
